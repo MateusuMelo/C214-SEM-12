@@ -12,8 +12,7 @@ Este projeto utiliza o Robot Framework para realizar testes automatizados. Siga 
 
 1. **Clonar o repositório** (caso ainda não tenha feito isso):
    ```bash
-   git clone <URL_DO_REPOSITORIO>
-   cd <NOME_DO_REPOSITORIO>
+   git clone https://github.com/MateusuMelo/C214-SEM-12.git
    ```
 
 2. **Criar o ambiente virtual (venv):**
@@ -52,7 +51,7 @@ Este projeto utiliza o Robot Framework para realizar testes automatizados. Siga 
 
 ## Estrutura de Pastas
 
-- `test/`: Contém todos os casos de teste escritos em arquivos `.robot`.
+- `test/`: Contém todos os casos de teste escritos em arquivos `.robot`
 
 ## Notas
 
