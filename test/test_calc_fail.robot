@@ -2,6 +2,26 @@
 Library    ../src/modulos/operacoes.py
 
 *** Test Cases ***
+Teste de Soma
+    [Documentation]    Testa a função de soma da calculadora.
+    ${resultado}=    Soma    ${2}    ${3}
+    Should Not Be Equal    ${resultado}    ${6}  # Alterei o valor esperado para falhar
+
+Teste de Subtração
+    [Documentation]    Testa a função de subtração da calculadora.
+    ${resultado}=    Subtracao    ${5}    ${3}
+    Should Not Be Equal    ${resultado}    ${3}  # Alterei o valor esperado para falhar
+
+Teste de Multiplicação
+    [Documentation]    Testa a função de multiplicação da calculadora.
+    ${resultado}=    Multiplicacao    ${3}    ${4}
+    Should Not Be Equal    ${resultado}    ${14}  # Alterei o valor esperado para falhar
+
+Teste de Divisão
+    [Documentation]    Testa a função de divisão da calculadora.
+    ${resultado}=    Divisao    ${10}    ${2}
+    Should Not Be Equal    ${resultado}    ${6}  # Alterei o valor esperado para falhar
+
 Teste de Logaritmo
     [Documentation]    Testa a função de logaritmo da calculadora.
     ${resultado}=    Logaritmo    ${100}    ${10}
