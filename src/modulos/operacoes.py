@@ -24,3 +24,14 @@ def raiz_quadrada(x):
 
 def modulo(x, y):
     return x % y
+
+def logaritmo(x, y):
+    if x <= 0 or y <= 0 or y == 1:
+        return "Erro: Logaritmo com base menor ou igual a zero, ou igual a 1, não é permitido."
+    return math.log(x, y)
+
+def seno(x):
+    return math.sin(x)
+
+def cosseno(x):
+    return math.cos(x)
