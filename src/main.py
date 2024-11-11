@@ -1,7 +1,28 @@
-from modulos.operacoes import soma
+# main.py
+from modulos.operacoes import soma, subtracao, multiplicacao
 
-
-x = 1
-y =2
-
-soma(x,y)
+def calculadora():
+    print("Bem-vindo à Calculadora Inteligente!")
+    print("Escolha uma operação:")
+    print("1. Somar")
+    print("2. Subtrair")
+    print("3. Multiplicar")
+    print("4. Divisao")
+    
+    operacao = input("Digite o número da operação desejada: ")
+    
+    # Solicita os números
+    x = float(input("Digite o primeiro número: "))
+    y = float(input("Digite o segundo número: "))
+    
+    # Realiza a operação escolhida
+    if operacao == '1':
+        print(f"Resultado da soma: {soma(x, y)}")
+    elif operacao == '2':
+        print(f"Resultado da subtração: {subtracao(x, y)}")
+    elif operacao == '3':
+        print(f"Resultado da multiplicação: {multiplicacao(x, y)}")
+    elif operacao == '4':
+        print(f"Resultado da divisao: {multiplicacao(x, y)}")
+    else:
+        print("Operação inválida.")
