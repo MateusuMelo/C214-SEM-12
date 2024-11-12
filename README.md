@@ -1,5 +1,4 @@
 [![Robot Framework Tests](https://github.com/MateusuMelo/C214-SEM-12/actions/workflows/ci-pipeline.yaml/badge.svg)](https://github.com/MateusuMelo/C214-SEM-12/actions/workflows/ci-pipeline.yaml)
-
 # C214-SEM-12
 
 Este projeto utiliza o Robot Framework para realizar testes automatizados. Siga os passos abaixo para configurar o ambiente e executar os testes.
